@@ -8,9 +8,9 @@ Please visit the project at [lantutuors.vercel.app](https://lantutors.vercel.app
 
 Additionally, the restful backend API can be viwed at [appspot.com/api](https://fsdisraelias.df.r.appspot.com/). For a sample response, please visit the [commonstudents](https://fsdisraelias.df.r.appspot.com/api/commonstudents) endpoint.
 
-[Go to backend](https://github.com/israelias/lantutors/tree/master/backend)      
+[Go to backend](https://github.com/victorlut/language-tutor/tree/master/backend)      
 
-[Go to frontend](https://github.com/israelias/lantutors/tree/master/frontend)
+[Go to frontend](https://github.com/victorlut/language-tutor/tree/master/frontend)
 ## UX
 ### User Stories
 #### New Tutor Goals
@@ -37,18 +37,18 @@ Additionally, the restful backend API can be viwed at [appspot.com/api](https://
 
 *** TODO ***
 #### All Students
-![](https://github.com/israelias/lantutors/blob/master/public/students.png?raw=true)
+![](https://github.com/victorlut/language-tutor/blob/master/public/students.png?raw=true)
 
 #### Common Students
-![](https://github.com/israelias/lantutors/blob/master/public/sortcommon.png?raw=true)
+![](https://github.com/victorlut/language-tutor/blob/master/public/sortcommon.png?raw=true)
 
 #### Notifications
-![](https://github.com/israelias/lantutors/blob/master/public/notifications.png?raw=true)
+![](https://github.com/victorlut/language-tutor/blob/master/public/notifications.png?raw=true)
 
 #### Post / Register
-![](https://github.com/israelias/lantutors/blob/master/public/notify.png?raw=true)
+![](https://github.com/victorlut/language-tutor/blob/master/public/notify.png?raw=true)
 #### Suspend
-![](https://github.com/israelias/lantutors/blob/master/public/student.png?raw=true)
+![](https://github.com/victorlut/language-tutor/blob/master/public/student.png?raw=true)
 
 ### Features Left To Implement
 - Ability to delete an account
