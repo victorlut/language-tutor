@@ -1,8 +1,8 @@
-[Back to root](https://github.com/israelias/lantutors#contents)  
-[Go to frontend](https://github.com/israelias/lantutors/tree/master/frontend)
-# Lantutors Back-End
+[Back to root](https://github.com/victorlut/language-tutor#contents)  
+[Go to frontend](https://github.com/victorlut/language-tutor/tree/master/frontend)
+# language-tutor Back-End
 
-The restful API is deployed at [appspot.com](https://fsdisraelias.df.r.appspot.com/) via GoogleCloud App Engine. The database is also served via GCloud's Cloud SQL on a personal account.
+The restful API is deployed at [appspot.com](https://fsdvictorlut.df.r.appspot.com/) via GoogleCloud App Engine. The database is also served via GCloud's Cloud SQL on a personal account.
 ## Development Requirements
 
 Postman:
@@ -35,7 +35,7 @@ If you dont have MYSQL, you can run a local db server via Docker using something
 ```
 
 ### Register your students
-#### ***Live Endpoint***: [appspot.com/api/register](https://fsdisraelias.df.r.appspot.com/api/register)
+#### ***Live Endpoint***: [appspot.com/api/register](https://fsdvictorlut.df.r.appspot.com/api/register)
 #### `api/register`: POST
 
 * Request body example
@@ -66,7 +66,7 @@ If you dont have MYSQL, you can run a local db server via Docker using something
 
 
 ### Post a Notification 
-#### ***Live Endpoint***: [appspot.com/api/retrievenotifications](https://fsdisraelias.df.r.appspot.com/api/retrievenotifications)
+#### ***Live Endpoint***: [appspot.com/api/retrievenotifications](https://fsdvictorlut.df.r.appspot.com/api/retrievenotifications)
 #### `api/retrievenotifications`: POST
 * Request body example 
 * In this example, `@studentann` and `@studentmary` are already registered students via `api/register` by another tutor. 
@@ -100,7 +100,7 @@ If you dont have MYSQL, you can run a local db server via Docker using something
 >>> BUG: Currently, mentioning a student twice returns that student's email twice in `recipients`. This does ***not***, however, duplicate that student's record.
 
 ### Suspend or Unsuspend a Student 
-#### ***Live Endpoint***: [appspot.com/api/suspend](https://fsdisraelias.df.r.appspot.com/api/suspend)
+#### ***Live Endpoint***: [appspot.com/api/suspend](https://fsdvictorlut.df.r.appspot.com/api/suspend)
 #### `api/suspend`: POST 
 * Request body example  (Toggles the `suspended` field for `student`)
 
@@ -138,7 +138,7 @@ If you dont have MYSQL, you can run a local db server via Docker using something
 
 
 ### Get Students common to Tutor(s)
-#### ***Live Endpoint***: [appspot.com/api/commonstudents](https://fsdisraelias.df.r.appspot.com/api/commonstudents)
+#### ***Live Endpoint***: [appspot.com/api/commonstudents](https://fsdvictorlut.df.r.appspot.com/api/commonstudents)
 #### `api/commonstudents?`: GET
 * If using Postman, ensure that the body is empyty.
 
@@ -159,7 +159,7 @@ If you dont have MYSQL, you can run a local db server via Docker using something
 }
 ```
 
-#### ***Live Endpoint***: [appspot.com/api/commonstudents?tutor=isabel@isabel.com](https://fsdisraelias.df.r.appspot.com/api/commonstudents?tutor=isabel@isabel.com) (with existing tutor `isabel` record params)
+#### ***Live Endpoint***: [appspot.com/api/commonstudents?tutor=isabel@isabel.com](https://fsdvictorlut.df.r.appspot.com/api/commonstudents?tutor=isabel@isabel.com) (with existing tutor `isabel` record params)
 #### `api/commonstudents?tutor=tutorken@gmail.com`: GET
 * If using Postman, ensure that the body is empyty.
 
@@ -177,7 +177,7 @@ If you dont have MYSQL, you can run a local db server via Docker using something
 }
 ```
 
-#### ***Live Endpoint***: [appspot.com/api/commonstudents?tutor=john@john.com](https://fsdisraelias.df.r.appspot.com/api/commonstudents?tutor=john@john.com) (with existing tutor `john` record params)
+#### ***Live Endpoint***: [appspot.com/api/commonstudents?tutor=john@john.com](https://fsdvictorlut.df.r.appspot.com/api/commonstudents?tutor=john@john.com) (with existing tutor `john` record params)
 #### `api/commonstudents?tutor=tutoranother@gmail.com`: GET
 * If using Postman, ensure that the body is empyty.
 
@@ -192,7 +192,7 @@ If you dont have MYSQL, you can run a local db server via Docker using something
 }
 ```
 
-#### ***Live Endpoint***: [appspot.com/api/commonstudents?tutor=john@john.com&tutor=isabel@isabel.com](https://fsdisraelias.df.r.appspot.com/api/commonstudents?tutor=john@john.com&tutor=isabel@isabel.com) (with existing tutor `isabel` and `john` record params)
+#### ***Live Endpoint***: [appspot.com/api/commonstudents?tutor=john@john.com&tutor=isabel@isabel.com](https://fsdvictorlut.df.r.appspot.com/api/commonstudents?tutor=john@john.com&tutor=isabel@isabel.com) (with existing tutor `isabel` and `john` record params)
 #### `api/commonstudents?tutor=tutorken@gmail.com&tutor=tutoranother@gmail.com`: GET
 * If using Postman, ensure that the body is empyty.
 
@@ -210,7 +210,7 @@ If you dont have MYSQL, you can run a local db server via Docker using something
 ```
 
 ### Get all Students
-#### ***Live Endpoint***: [appspot.com/api/allstudents](https://fsdisraelias.df.r.appspot.com/api/allstudents)
+#### ***Live Endpoint***: [appspot.com/api/allstudents](https://fsdvictorlut.df.r.appspot.com/api/allstudents)
 #### `api/allstudents`: GET
 * If using Postman, ensure that the body is empyty.
 
@@ -228,7 +228,7 @@ If you dont have MYSQL, you can run a local db server via Docker using something
 ]
 ```
 
-#### ***Live Endpoint***: [appspot.com/api/students](https://fsdisraelias.df.r.appspot.com/api/students)
+#### ***Live Endpoint***: [appspot.com/api/students](https://fsdvictorlut.df.r.appspot.com/api/students)
 #### `api/students`: GET
 * If using Postman, ensure that the body is empyty.
 
@@ -248,7 +248,7 @@ If you dont have MYSQL, you can run a local db server via Docker using something
 ```
 
 ### Get one Student
-#### ***Live Endpoint***: [appspot.com/api/elias@elias.com](https://fsdisraelias.df.r.appspot.com/api/students/elias@elias.com)
+#### ***Live Endpoint***: [appspot.com/api/elias@elias.com](https://fsdvictorlut.df.r.appspot.com/api/students/elias@elias.com)
 #### `api/students/email@email.com`: GET
 * If using Postman, ensure that the body is empyty.
 
@@ -265,7 +265,7 @@ If you dont have MYSQL, you can run a local db server via Docker using something
 
 
 ### Get all Tutors
-#### ***Live Endpoint***: [appspot.com/api/tutors](https://fsdisraelias.df.r.appspot.com/api/tutors)
+#### ***Live Endpoint***: [appspot.com/api/tutors](https://fsdvictorlut.df.r.appspot.com/api/tutors)
 #### `api/tutors`: GET
 * If using Postman, ensure that the body is empyty.
 
@@ -284,7 +284,7 @@ If you dont have MYSQL, you can run a local db server via Docker using something
 ```
 
 ### Get one Tutor
-#### ***Live Endpoint***: [appspot.com/api/tutors/john@john.com](https://fsdisraelias.df.r.appspot.com/api/tutors/john@john.com)
+#### ***Live Endpoint***: [appspot.com/api/tutors/john@john.com](https://fsdvictorlut.df.r.appspot.com/api/tutors/john@john.com)
 #### `api/tutors/email@email.com`: GET
 * If using Postman, ensure that the body is empyty.
 
@@ -301,7 +301,7 @@ If you dont have MYSQL, you can run a local db server via Docker using something
 
 
 ### Get all Notifications
-#### ***Live Endpoint***: [appspot.com/api/allnotifications](https://fsdisraelias.df.r.appspot.com/api/allnotifications)
+#### ***Live Endpoint***: [appspot.com/api/allnotifications](https://fsdvictorlut.df.r.appspot.com/api/allnotifications)
 #### `api/allnotifications`: GET
 * If using Postman, ensure that the body is empyty.
 
@@ -322,7 +322,7 @@ If you dont have MYSQL, you can run a local db server via Docker using something
 ```
 
 ### Get all Notifications by Tutor
-#### ***Live Endpoint***: [appspot.com/api/notifications/john@john.com](https://fsdisraelias.df.r.appspot.com/api/notifications/john@john.com)
+#### ***Live Endpoint***: [appspot.com/api/notifications/john@john.com](https://fsdvictorlut.df.r.appspot.com/api/notifications/john@john.com)
 #### `api/notifications/tutor@email.com`: GET
 * If using Postman, ensure that the body is empyty.
 
@@ -344,7 +344,7 @@ If you dont have MYSQL, you can run a local db server via Docker using something
 
 
 ### Get all Tutor-Student associations
-#### ***Live Endpoint***: [appspot.com/api/alltutorstudents](https://fsdisraelias.df.r.appspot.com/api/alltutorstudents)
+#### ***Live Endpoint***: [appspot.com/api/alltutorstudents](https://fsdvictorlut.df.r.appspot.com/api/alltutorstudents)
 #### `api/alltutorstudents`: GET
 * If using Postman, ensure that the body is empyty.
 
@@ -364,7 +364,7 @@ If you dont have MYSQL, you can run a local db server via Docker using something
 ```
 
 ### Get all Tutor-Student associations by Tutor
-#### ***Live Endpoint***: [appspot.com/api/commonstudents/john@john.com](https://fsdisraelias.df.r.appspot.com/api/commonstudents/john@john.com)
+#### ***Live Endpoint***: [appspot.com/api/commonstudents/john@john.com](https://fsdvictorlut.df.r.appspot.com/api/commonstudents/john@john.com)
 #### `api/commonstudents/tutor@email.com`: GET
 * If using Postman, ensure that the body is empyty.
 
