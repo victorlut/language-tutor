@@ -1,7 +1,7 @@
-[Back to root](https://github.com/israelias/lantutors#contents)\
-[Go to backend](https://github.com/israelias/lantutors/tree/master/backend)
+[Back to root](https://github.com/victorlut/language-tutor#contents)\
+[Go to backend](https://github.com/victorlut/language-tutor/tree/master/backend)
 
-# Lantutors Front-End
+# language-tutor Front-End
 
 This is a really simple project that shows the usage of Next.js with TypeScript.
 
@@ -23,7 +23,7 @@ This is a really simple project that shows the usage of Next.js with TypeScript.
 - `commit` and `push` the code from local IDE to Github via Git.
 - Log in to Vercel and click the [New Project](https://vercel.com/new) CTA.
 - Access "Import Git Repository" via the `select` input, located at the top-left of the immediate prompt.
-- Click "Import" on the repository named `lantutors`
+- Click "Import" on the repository named `language-tutor`
 - Select the default `Personal Account`
 - Select the `frontend` sub-directory.
 - Click `Deploy`
