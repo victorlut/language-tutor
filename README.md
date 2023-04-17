@@ -1,9 +1,9 @@
-![](https://github.com/israelias/lantutors/blob/master/public/notifications.png?raw=true)
-# Lantutors
+![](https://github.com/victorlut/language-tutor/blob/master/public/notifications.png?raw=true)
+# language-tutor
 Scholastic administrative app for educators, home-based tutors, and mentors to connect with students that can benefit from after-school or full-time tutoring.
 The app's overwhelming long-term purpose and value is for registered tutors to perform administrative functions for on-campus or remote-based classes effectively and consistently.
 
-Please visit the project at [lantutuors.vercel.app](https://lantutors.vercel.app).
+Please visit the project at [lantutuors.vercel.app](https://language-tutor.vercel.app).
 
 
 Additionally, the restful backend API can be viwed at [appspot.com/api](https://fsdisraelias.df.r.appspot.com/). For a sample response, please visit the [commonstudents](https://fsdisraelias.df.r.appspot.com/api/commonstudents) endpoint.
@@ -57,15 +57,15 @@ Additionally, the restful backend API can be viwed at [appspot.com/api](https://
 
 ## Technologies
 ### Frameworks and Libraries
-  - ### [`cd frontend`](https://github.com/israelias/lantutors/tree/master/frontend)
-    Please visit the [frontend](https://github.com/israelias/lantutors/tree/master/frontend) sub directory for details on ReactJS Typescript frameworks and libraries.\
+  - ### [`cd frontend`](https://github.com/victorlut/language-tutor/tree/master/frontend)
+    Please visit the [frontend](https://github.com/victorlut/language-tutor/tree/master/frontend) sub directory for details on ReactJS Typescript frameworks and libraries.\
 
-[Go to frontend](https://github.com/israelias/lantutors/tree/master/frontend)
-  - ### [`cd backend`](https://github.com/israelias/lantutors/tree/master/backend)
-    Please visit the [backend](https://github.com/israelias/lantutors/tree/master/backend) root directory for details on ExpressJS Sequelize frameworks and libraries.
+[Go to frontend](https://github.com/victorlut/language-tutor/tree/master/frontend)
+  - ### [`cd backend`](https://github.com/victorlut/language-tutor/tree/master/backend)
+    Please visit the [backend](https://github.com/victorlut/language-tutor/tree/master/backend) root directory for details on ExpressJS Sequelize frameworks and libraries.
 
 
-[Go to backend](https://github.com/israelias/lantutors/tree/master/backend)
+[Go to backend](https://github.com/victorlut/language-tutor/tree/master/backend)
 
 
 ### Programs and Software
@@ -78,24 +78,24 @@ Additionally, the restful backend API can be viwed at [appspot.com/api](https://
 ### TBD
 
 ## Code testing
-  - ### [`cd backend`](https://github.com/israelias/lantutors/tree/master/backend)
-    Please visit the [backend](https://github.com/israelias/lantutors/tree/master/backend) root directory for details on running unit tests with `Joi/Express` validation and a pre-configured database `Factory`.
+  - ### [`cd backend`](https://github.com/victorlut/language-tutor/tree/master/backend)
+    Please visit the [backend](https://github.com/victorlut/language-tutor/tree/master/backend) root directory for details on running unit tests with `Joi/Express` validation and a pre-configured database `Factory`.
 ## Deployment
 
 - The project frontend is written in [Typescript]() developed with [React](https://reactjs.org/), bootstrapped with [NextJS](https://nextjs.org/) by using `npx create-next-app --typescript` and deployed with [Vercel](https://nextjs.org/docs/deployment). The backend is written in [Javascript](), developed with [ExpressJS]() to serve a restful MySQL database via [Sequelize-CLI]() hosted with [GoogleCloud SQL]() and deployed with [Google Cloud App Engine](). 
-  ### [`cd frontend`](https://github.com/israelias/lantutors/tree/master/frontend)
-  Please visit the [frontend](https://github.com/israelias/lantutors/tree/master/frontend) root directory for details on deployment steps.
-  ### [`cd backend`](https://github.com/israelias/lantutors/tree/master/backend)
-  Please visit the [backend](https://github.com/israelias/lantutors/tree/master/backend) root directory for details on deployment steps.
+  ### [`cd frontend`](https://github.com/victorlut/language-tutor/tree/master/frontend)
+  Please visit the [frontend](https://github.com/victorlut/language-tutor/tree/master/frontend) root directory for details on deployment steps.
+  ### [`cd backend`](https://github.com/victorlut/language-tutor/tree/master/backend)
+  Please visit the [backend](https://github.com/victorlut/language-tutor/tree/master/backend) root directory for details on deployment steps.
 
 ## Cloning This Repo
-- Clone this repo by running `git clone https://github.com/israelias/lantutors`
+- Clone this repo by running `git clone https://github.com/victorlut/language-tutor`
 - at the jump, `cd` to the name of this repo:
-`cd lantutors`
-  ### [`cd frontend`](https://github.com/israelias/lantutors/tree/master/frontend)
-  Please visit the [frontend](https://github.com/israelias/lantutors/tree/master/frontend) root directory for details on required modules via `yarn install` and to start the frontend development server on `localhost:3000`.
-  ### [`cd backend`](https://github.com/israelias/lantutors/tree/master/backend)
-  Please visit the [backend](https://github.com/israelias/lantutors/tree/master/backend) root directory for details on required modules via and ***ExpressJS-SequelizeCLI-specific*** `package.json` and to start the backend development server on `localhost:4000`.
+`cd language-tutor`
+  ### [`cd frontend`](https://github.com/victorlut/language-tutor/tree/master/frontend)
+  Please visit the [frontend](https://github.com/victorlut/language-tutor/tree/master/frontend) root directory for details on required modules via `yarn install` and to start the frontend development server on `localhost:3000`.
+  ### [`cd backend`](https://github.com/victorlut/language-tutor/tree/master/backend)
+  Please visit the [backend](https://github.com/victorlut/language-tutor/tree/master/backend) root directory for details on required modules via and ***ExpressJS-SequelizeCLI-specific*** `package.json` and to start the backend development server on `localhost:4000`.
 - Alternatively, you can clone each of the subdirectories separately, and follow the procedures given from this `monorepo/subrepo`.
 
 ## Credits
